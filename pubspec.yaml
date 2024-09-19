@@ -1,0 +1,27 @@
+name: screen_brightness_platform_interface
+description: A common platform interface for the screen_brightness plugin
+version: 1.0.1
+homepage: https://github.com/aaassseee/screen_brightness
+repository: https://github.com/aaassseee/screen_brightness/tree/master/screen_brightness_platform_interface
+issue_tracker: https://github.com/aaassseee/screen_brightness/issues
+publish_to: none
+
+topics:
+  - screen
+  - monitor
+  - brightness
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface:
+    git: https://github.com/kumsumit/plugin_platform_interface.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
